@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-airproxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/microadam/homebridge-airproxy.git"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "primus": "^4.0.1",
+    "primus-emitter": "^3.1.1",
+    "ws": "^0.8.0"
+  }
+}
