@@ -11,7 +11,7 @@ function init(homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
 
-  homebridge.registerPlatform('homebridge-airproxy', 'AirProxy', AirProxyPlatform, true);
+  homebridge.registerPlatform('homebridge-airproxy', 'AirProxy', AirProxyPlatform);
 }
 
 function AirProxyPlatform(log, config) {
